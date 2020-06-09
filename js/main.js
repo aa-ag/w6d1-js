@@ -32,6 +32,8 @@ function findWords(){
 }
 console.log(findWords())
 
+.includes(dog_names[i])
+
 //Call method here with parameters
 
 // Exercise #2 //
@@ -45,9 +47,10 @@ function replaceEvenIndexes(arr){
         if(i % 2 == 0){
             arr.splice(i, 1, 'even index')
         }
-        console.log(arr)
     }
+    console.log(arr)
 }
+
 replaceEvenIndexes(arr)
 
 // Expected output
